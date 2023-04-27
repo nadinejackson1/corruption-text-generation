@@ -4,11 +4,11 @@
 
 This project demonstrates how to generate text related to corruption using a Recurrent Neural Network (RNN) based on the Corruption Perceptions Index (CPI) timeseries data from 2012 to 2021.
 
-# Overview
+### Overview
 
 The RNN model is created using TensorFlow and Keras. It uses LSTM (Long Short-Term Memory) layers and learns to generate text based on the input data, which includes the corruption scores of various countries over the years. The generated text will be in the format of "Country has a corruption score of X in Year."
 
-# Requirements
+### Requirements
 
 - Python 3.6 or above
 - TensorFlow 2.0 or above
@@ -23,12 +23,13 @@ To install the required packages, run:
 
 1. Clone the repository to your local machine.
 
-    git clone https://github.com/your-username/corruption-text-generation.git
-    cd corruption-text-generation
+        git clone https://github.com/nadinejackson1/corruption-text-generation.git
+
+        cd corruption-text-generation
 
 2. Run the Jupyter notebook containing the complete code.
 
-    jupyter notebook corruption_text_generation.ipynb
+        jupyter notebook corruption-text-generation.ipynb
 
 3. Go through the notebook step by step, which contains the following sections:
 
@@ -47,5 +48,5 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 ### Acknowledgments
 
-    The project is based on the [Corruption Perceptions Index Timeseries 2012 - 2021](https://open.africa/dataset/corruption-perceptions-index-timeseries-2012-2021) dataset.
+The project is based on the [Corruption Perceptions Index Timeseries 2012 - 2021](https://open.africa/dataset/corruption-perceptions-index-timeseries-2012-2021) dataset.
 
